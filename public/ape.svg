@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#69442b"/><stop offset=".52" stop-color="#26170f"/><stop offset="1" stop-color="#100d0b"/></linearGradient>
+ <radialGradient id="fur"><stop stop-color="#c58a52"/><stop offset=".72" stop-color="#75472d"/><stop offset="1" stop-color="#3a2419"/></radialGradient>
+ <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e725c"/><stop offset="1" stop-color="#092c29"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#f4d18a"/><stop offset=".5" stop-color="#a76b35"/><stop offset="1" stop-color="#f5d79a"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="600" height="700" rx="26" fill="url(#bg)"/>
+<circle cx="310" cy="330" r="245" fill="#bb7940" opacity=".15" filter="url(#shadow)"/>
+<path d="M80 700Q94 560 205 515L394 506Q518 547 535 700Z" fill="url(#coat)" stroke="#b57a45" stroke-width="5"/>
+<path d="M206 548L300 632 394 548" fill="none" stroke="#d8a56d" stroke-width="9" opacity=".8"/>
+<path d="M270 564L300 624 330 564" fill="#d1a26b"/>
+<path d="M155 268Q119 174 184 111Q238 54 327 72Q436 75 469 174Q501 270 448 376L164 386Z" fill="url(#fur)" stroke="#d19a63" stroke-width="5"/>
+<ellipse cx="144" cy="298" rx="66" ry="88" fill="#70442c" stroke="#c48b56" stroke-width="8"/><ellipse cx="456" cy="298" rx="66" ry="88" fill="#70442c" stroke="#c48b56" stroke-width="8"/>
+<ellipse cx="300" cy="293" rx="171" ry="198" fill="url(#fur)" stroke="#d19a63" stroke-width="5"/>
+<path d="M166 266Q174 177 255 153Q300 138 345 154Q421 176 435 264Q406 231 365 233Q333 202 300 213Q265 200 235 232Q195 229 166 266Z" fill="#382218" opacity=".8"/>
+<ellipse cx="231" cy="292" rx="47" ry="37" fill="#e2bd91"/><ellipse cx="369" cy="292" rx="47" ry="37" fill="#e2bd91"/>
+<ellipse cx="231" cy="291" rx="20" ry="24" fill="#1a120e"/><ellipse cx="369" cy="291" rx="20" ry="24" fill="#1a120e"/><circle cx="238" cy="282" r="7" fill="#fff"/><circle cx="376" cy="282" r="7" fill="#fff"/>
+<path d="M178 252Q224 222 270 248M330 248Q377 222 422 252" fill="none" stroke="#3c2519" stroke-width="16" stroke-linecap="round"/>
+<ellipse cx="300" cy="383" rx="104" ry="78" fill="#d8b18a"/><ellipse cx="300" cy="354" rx="48" ry="29" fill="#4a2d20"/><ellipse cx="300" cy="348" rx="26" ry="14" fill="#160f0b"/>
+<path d="M252 407Q300 443 348 407Q335 464 300 464Q265 464 252 407Z" fill="#f1d1a8" stroke="#855437" stroke-width="5"/><path d="M265 415Q300 428 335 415" fill="none" stroke="#6a3e2a" stroke-width="5"/>
+<path d="M175 250Q190 205 235 202L255 239Q216 226 190 262Z" fill="#2c1c14"/><path d="M425 250Q410 205 365 202L345 239Q384 226 410 262Z" fill="#2c1c14"/>
+<!-- round collector glasses -->
+<circle cx="229" cy="292" r="62" fill="#17221f" fill-opacity=".18" stroke="url(#gold)" stroke-width="13"/><circle cx="371" cy="292" r="62" fill="#17221f" fill-opacity=".18" stroke="url(#gold)" stroke-width="13"/><path d="M291 287Q300 276 309 287" fill="none" stroke="#e8bd79" stroke-width="12" stroke-linecap="round"/><path d="M167 278L135 260M433 278L465 260" stroke="#d9a46b" stroke-width="10" stroke-linecap="round"/>
+<path d="M187 533Q300 582 413 533" fill="none" stroke="#d59b5e" stroke-width="5"/>
+<circle cx="300" cy="572" r="18" fill="url(#gold)"/><path d="M300 556L305 568 318 572 305 577 300 590 295 577 282 572 295 568Z" fill="#4d2d18"/>
+<text x="300" y="665" text-anchor="middle" fill="#d7a06b" font-family="monospace" font-size="12" letter-spacing="5">KURIO / GENESIS 042</text>
+</svg>
